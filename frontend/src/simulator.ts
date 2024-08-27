@@ -115,6 +115,6 @@ const checkInputInterval = setInterval(() => {
 
 
 setTimeout(() => { nluxSimulator?.enableSimulator();
- nluxSimulator?.setPrompt("Explain how quantum computing works."); }, 1000);
+ nluxSimulator?.setPrompt("Who are you?"); }, 1000);
 
 export {};

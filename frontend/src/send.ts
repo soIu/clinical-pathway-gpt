@@ -34,9 +34,9 @@ export const send: StreamSend = async (
             history += '\n';
             break;
         }
-        history += value;
 
         const content = textDecoder.decode(value);
+        history += content;
         if (content) {
             observer.next(content);
         }

@@ -5,9 +5,9 @@ const userAvatar = 'https://docs.nlkit.com/nlux/images/personas/marissa.png';
 
 export const personas: PersonaOptions = {
     assistant: {
-        name: 'HawkingAssistant',
+        name: 'Clinical Pathway',
         avatar: assistantAvatar,
-        tagline: 'Outsmarts Einstein and E.T',
+        tagline: '',
     },
     user: {
         name: 'Marissa',
