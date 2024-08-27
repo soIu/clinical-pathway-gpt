@@ -1,12 +1,13 @@
 {
   "dependencies": {
+    "@babel/plugin-transform-optional-chaining": "^7.24.8",
+    "@nlux/highlighter": "^2",
+    "@nlux/langchain-react": "^2",
+    "@nlux/react": "^2",
+    "@nlux/themes": "^2",
     "react": "^18",
     "react-dom": "^18",
-    "react-scripts": "^4.0.0",
-    "@nlux/react": "^2",
-    "@nlux/langchain-react": "^2",
-    "@nlux/themes": "^2",
-    "@nlux/highlighter": "^2"
+    "react-scripts": "^4.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
@@ -22,5 +23,24 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+"eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+},
+  "browserslist": {
+    "production": [
+      "chrome 79",
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
