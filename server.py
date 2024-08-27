@@ -26,16 +26,16 @@ root = path.join(path.dirname(__file__), 'frontend/build')
 print(root)
 
 @route('/')
-def root():
+def index():
     return static_file('index.html', root=root)
 
-@route('/<filename>')
+@route('/<filename:path>')
 def server_static(filename):
     return static_file(filename, root=root)
 
 @route('/chat')
 def chat():
-    history = request.query.history or ''
+    history = request.query.history or 'Act like a clinician.\n'
     query = request.query.query
     print(history + 'Prompt >\n' + query)
     response = query_engine.query(history + query)
