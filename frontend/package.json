@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "react": "^18",
+    "react-dom": "^18",
+    "react-scripts": "^4.0.0",
+    "@nlux/react": "^2",
+    "@nlux/langchain-react": "^2",
+    "@nlux/themes": "^2",
+    "@nlux/highlighter": "^2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "typescript": "^4.0.0"
+  },
+  "main": "/index.tsx",
+  "name": "kzqtc2",
+  "description": null,
+  "version": "0.0.0",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
